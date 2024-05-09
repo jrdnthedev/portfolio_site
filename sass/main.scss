@@ -1,6 +1,6 @@
-* {
-  font-size: 16px;
-}
 @import "core/reset";
+@import "core/_variables";
+@import "components/components";
 @import "core/typography";
 @import "layout/header";
+@import "sections/sections";

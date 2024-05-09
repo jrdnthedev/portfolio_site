@@ -1,9 +1,27 @@
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  position: relative;
+  z-index: 2;
+}
+
+.headline {
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 @media screen and (min-width: 768px) {
   h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .headline {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
     font-size: 4rem;
+    letter-spacing: 4px;
   }
 }
