@@ -30,10 +30,10 @@ h1 {
 
 @media screen and (min-width: 425px) {
   .dot {
-    height: 20px;
-    width: 20px;
-    top: -3px;
-    left: -11px;
+    height: 25px;
+    width: 25px;
+    top: -9px;
+    left: -16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -96,4 +96,10 @@ header {
 
 #intro-heading {
   position: relative;
+}
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
