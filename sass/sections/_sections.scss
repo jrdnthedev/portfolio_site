@@ -1,3 +1,23 @@
 #intro-heading {
   position: relative;
 }
+
+section {
+  margin: 1rem;
+  height: 400px;
+  &.off-second {
+    background-color: $primary;
+    p {
+      color: $secondary;
+      margin: 1rem;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+  &.blue {
+    background-color: $blue;
+  }
+  &.outline {
+    border: 2px solid $primary;
+  }
+}
