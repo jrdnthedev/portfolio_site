@@ -4,10 +4,18 @@ h1 {
   z-index: 2;
 }
 
+h2 {
+}
+
 .headline {
   font-size: 0.8rem;
   letter-spacing: 1.8px;
 }
+.paragraph {
+  letter-spacing: 2px;
+  font-family: serif;
+}
+
 @media screen and (min-width: 425px) {
   h1 {
     font-size: 1.6rem;
@@ -21,6 +29,12 @@ h1 {
   h1 {
     font-size: 3rem;
     letter-spacing: 2px;
+  }
+  h2 {
+    font-size: 2rem;
+    color: $primary;
+    letter-spacing: 2px;
+    background: $secondary;
   }
   .headline {
     font-size: 2rem;

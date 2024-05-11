@@ -8,7 +8,8 @@ body {
   background-color: rgb(249, 238, 231);
 }
 
-h1 {
+h1,
+p {
   margin: 0;
 }
 
@@ -26,6 +27,14 @@ h1 {
 
 .text-center {
   text-align: center;
+}
+
+.mb-1u {
+  margin-bottom: 1rem;
+}
+
+.mb-1hu {
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 425px) {
@@ -63,6 +72,11 @@ h1 {
   letter-spacing: 1.8px;
 }
 
+.paragraph {
+  letter-spacing: 2px;
+  font-family: serif;
+}
+
 @media screen and (min-width: 425px) {
   h1 {
     font-size: 1.6rem;
@@ -76,6 +90,12 @@ h1 {
   h1 {
     font-size: 3rem;
     letter-spacing: 2px;
+  }
+  h2 {
+    font-size: 2rem;
+    color: rgb(192, 57, 43);
+    letter-spacing: 2px;
+    background: rgb(249, 238, 231);
   }
   .headline {
     font-size: 2rem;
@@ -100,7 +120,7 @@ header {
 
 section {
   margin: 1rem;
-  height: 400px;
+  position: relative;
 }
 section.off-second {
   background-color: rgb(192, 57, 43);
