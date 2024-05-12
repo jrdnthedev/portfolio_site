@@ -37,6 +37,25 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.border.primary-clr {
+  border-color: rgb(192, 57, 43);
+}
+.border.secondary-clr {
+  border-color: rgb(249, 238, 231);
+}
+.border.right {
+  border-right: 1px solid;
+}
+.border.left {
+  border-left: 1px solid;
+}
+.border.top {
+  border-top: 1px solid;
+}
+.border.btm {
+  border-bottom: 1px solid;
+}
+
 @media screen and (min-width: 425px) {
   .dot {
     height: 25px;
@@ -120,6 +139,7 @@ header {
 
 section {
   margin: 1rem;
+  padding: 1rem;
   position: relative;
 }
 section.off-second {

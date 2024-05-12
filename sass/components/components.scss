@@ -18,6 +18,26 @@
 .mb-1hu {
   margin-bottom: 0.5rem;
 }
+.border {
+  &.primary-clr {
+    border-color: $primary;
+  }
+  &.secondary-clr {
+    border-color: $secondary;
+  }
+  &.right {
+    border-right: $border_width solid;
+  }
+  &.left {
+    border-left: $border_width solid;
+  }
+  &.top {
+    border-top: $border_width solid;
+  }
+  &.btm {
+    border-bottom: $border_width solid;
+  }
+}
 
 @media screen and (min-width: 425px) {
   .dot {
